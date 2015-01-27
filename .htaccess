@@ -1,0 +1,4 @@
+# turn off script memory limits, to accomodate processing large images
+php_value memory_limit -1
+
+# TODO redirect /(\w+)/(.*) to $1.php?$2
